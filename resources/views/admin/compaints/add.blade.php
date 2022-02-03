@@ -48,16 +48,18 @@
           <form id="demo-form2" method="post" enctype="multipart/form-data"
         action="{{url('admin/compaints')}}" data-parsley-validate class="form-horizontal form-label-left">
         {{csrf_field()}}
-        <div class="form-group">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+         
           <label class="control-label" for="first-name">
             Complain Ref No: <span class="required">*</span>
           </label>
 
             <input placeholder="Please enter Complain Ref No" type="text"  name="complain_ref_no"
               class="form-control col-md-12">
-
-         
-        </div>
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Complain by User ID: <span class="required">*</span>
@@ -67,7 +69,9 @@
               class="form-control col-md-12">
 
          
-        </div>
+            
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Complain by Name: <span class="required">*</span>
@@ -77,7 +81,8 @@
               class="form-control col-md-12">
 
          
-        </div>
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Mobile: <span class="required">*</span>
@@ -87,7 +92,8 @@
               class="form-control col-md-12">
 
          
-        </div>
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Title: <span class="required">*</span>
@@ -97,7 +103,8 @@
               class="form-control col-md-12">
 
          
-        </div>
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Issue Date: <span class="required">*</span>
@@ -107,7 +114,8 @@
               class="form-control col-md-12">
 
          
-        </div>
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Resolved Date: <span class="required">*</span>
@@ -117,8 +125,8 @@
               class="form-control col-md-12">
 
          
-        </div>
-
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Category: <span class="required">*</span>
@@ -128,8 +136,8 @@
               class="form-control col-md-12">
 
          
-        </div>
-
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Sub category: <span class="required">*</span>
@@ -139,8 +147,8 @@
               class="form-control col-md-12">
 
          
-        </div>
-
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Mentioned complain: <span class="required">*</span>
@@ -150,8 +158,8 @@
               class="form-control col-md-12">
 
          
-        </div>
-
+        </div></div>
+        <div class="col-md-6">
         <div class="form-group">
           <label class="control-label" for="first-name">
             Photo: <span class="required">*</span>
@@ -162,9 +170,9 @@
 
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
-              </div>
+              </div></div>
 
-
+            </div> 
               <div class="custom-file">
                 <input type="file" name="photo" class="inputfile inputfile-1" id="inputGroupFile01"
                   aria-describedby="inputGroupFileAddon01">
@@ -173,8 +181,8 @@
             </div>            
             <small class="text-info"> <i class="text-dark feather icon-help-circle"></i>(Please Choose photo Image)</small>
 
-          </div>       
-       
+                
+        </div>
           <div class="form-group">
           <button type="reset" class="btn btn-danger"><i class="fa fa-ban"></i>
             Reset</button>

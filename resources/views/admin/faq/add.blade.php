@@ -79,7 +79,7 @@
              <br>
              <small class="text-info"> <i class="text-dark feather icon-help-circle"></i>(Choose status for your faq)</small>
             </div>
-          
+          </div>
           <div class="box-footer">
             <div class="form-group">
               <button type="reset" class="btn btn-danger"><i class="fa fa-ban"></i>
@@ -87,7 +87,7 @@
               <button type="submit" class="btn btn-primary"><i class="fa fa-check-circle"></i>
                 Create</button>
             </div>
-  
+          </div>
             <div class="clear-both"></div>
 </form>
 </div>
